@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+//import Taro, { Component } from '@tarojs/taro'
 import { View, Text } from '@tarojs/components'
 import { PostCard, PostForm } from '../../components'
 import './index.scss'
@@ -45,18 +46,18 @@ export default class Index extends Component {
       //   <Text>Hello world!</Text>
       // </View>
       <View className="index">
-      {/* {this.state.posts.map((post, index) => (
-        <PostCard key={index} title={post.title} content={post.content} />
-      ))}
-      <PostForm
-        formTitle={this.state.formTitle}
-        formContent={this.state.formContent}
-        handleSubmit={e => this.handleSubmit(e)}
-        handleTitleInput={e => this.handleTitleInput(e)}
-        handleContentInput={e => this.handleContentInput(e)}
-      /> */}
+        {/* {this.state.posts.map((post, index) => (
+          <PostCard key={index} title={post.title} content={post.content} />
+        ))}
+        <PostForm
+          formTitle={this.state.formTitle}
+          formContent={this.state.formContent}
+          handleSubmit={e => this.handleSubmit(e)}
+          handleTitleInput={e => this.handleTitleInput(e)}
+          handleContentInput={e => this.handleContentInput(e)}
+        /> */}
       hi
-    </View>
+      </View>
     )
   }
 }
