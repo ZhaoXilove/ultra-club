@@ -42,11 +42,8 @@ export default class Index extends Component {
 
   render() {
     return (
-      // <View className='index'>
-      //   <Text>Hello world!</Text>
-      // </View>
       <View className="index">
-        {/* {this.state.posts.map((post, index) => (
+        {this.state.posts.map((post, index) => (
           <PostCard key={index} title={post.title} content={post.content} />
         ))}
         <PostForm
@@ -55,9 +52,8 @@ export default class Index extends Component {
           handleSubmit={e => this.handleSubmit(e)}
           handleTitleInput={e => this.handleTitleInput(e)}
           handleContentInput={e => this.handleContentInput(e)}
-        /> */}
-      hi
-      </View>
+        />
+    </View>
     )
   }
 }
