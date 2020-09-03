@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { View, Form, Input, Textarea, Button } from '@tarojs/components'
 
 import './index.scss'
-
 export default function PostForm(props) {
   return (
     <View className="post-form">
