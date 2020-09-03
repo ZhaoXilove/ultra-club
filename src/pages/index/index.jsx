@@ -16,7 +16,6 @@ export default class Index extends Component {
   }
   handleSubmit(e) {
     e.preventDefault()
-
     const { formTitle: title, formContent: content } = this.state
     const newPosts = this.state.posts.concat({ title, content })
 
