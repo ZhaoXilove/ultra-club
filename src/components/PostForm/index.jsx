@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { View, Form, Input, Textarea, Button } from '@tarojs/components'
-
+// import { AtButton } from 'taro-ui'
 import './index.scss'
 export default function PostForm(props) {
   return (
@@ -26,6 +26,9 @@ export default function PostForm(props) {
           <Button className="form-button" formType="submit" type="primary">
             提交
           </Button>
+          {/* <AtButton formType="submit" type="primary">
+            提交
+          </AtButton> */}
         </View>
       </Form>
     </View>

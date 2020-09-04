@@ -37,11 +37,13 @@
   "dependencies": {
     "@babel/runtime": "^7.7.7",
     "@tarojs/components": "3.0.7",
+    "@tarojs/react": "3.0.7",
     "@tarojs/runtime": "3.0.7",
     "@tarojs/taro": "3.0.7",
-    "@tarojs/react": "3.0.7",
+    "node-sass": "^4.14.1",
+    "react": "^16.10.0",
     "react-dom": "^16.10.0",
-    "react": "^16.10.0"
+    "taro-ui": "^2.3.4"
   },
   "devDependencies": {
     "@types/webpack-env": "^1.13.6",

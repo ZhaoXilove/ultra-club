@@ -4,7 +4,7 @@
 	"description": "",
 	"appid": "wxbdb816c377674a51",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": false,
 		"enhance": false,
 		"postcss": false,
@@ -33,5 +33,6 @@
 	"compileType": "miniprogram",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"libVersion": "2.12.2",
 	"condition": {}
 }
